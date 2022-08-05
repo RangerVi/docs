@@ -1,3 +1,20 @@
 {
-    "title": "Vacoonisthebest"
+    "plugins": [
+        "bilibili",
+        "ad"
+    ],
+    "title": "Vacoonisthebest",
+    "root": ".src",
+    "pluginsConfig": {
+        "ad": {
+            "beforeArticleBody": {
+                "image": "点击购买",
+                "url": "https:\/\/github.com\/RangerVi\/docs"
+            },
+            "afterArticleBody": {
+                "url": "https:\/\/github.com\/RangerVi\/docs",
+                "image": "点击购买"
+            }
+        }
+    }
 }
